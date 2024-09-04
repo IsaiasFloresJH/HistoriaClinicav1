@@ -1,0 +1,181 @@
+.titulo{
+    background-color: #2b7c93;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 2.5em;
+    color: white;
+    margin-left: 40.5%;
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.presentacionservicios{
+    width: 80%;
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.imgconbtn{
+    margin-top: 4%;
+    width: 33.33%;
+    min-height: 80%;
+}
+.imgcirculares{
+    border-radius: 50%;
+    border: 3px solid rgb(16, 67, 92);
+    width: 50%;
+    margin-left: 10%;
+}
+.btnservicios{
+    background-color: rgb(16, 67, 92);
+    color: white;
+    padding: 2%;
+    border-radius: 50px;
+    font-size: 1em;
+    width: 70%;
+    margin-top: -10%;
+    margin-bottom: 1.3%;
+}
+.btnservicios:hover{
+    background-color: #2b7c93;
+}
+
+/* TODO:botones de servicios parte 2*/
+.endoponcia{
+    width:90%;
+    display: flex;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}
+.imgconbtnparte2{
+    margin-top: 10%;
+}
+.presentacionendoponcia{
+    width: 30%;
+}
+.btnserviciosparte2{
+    background-color: #2b7c93;
+    color: white;
+    padding: 2%;
+    border-radius: 50px;
+    font-size: 1em;
+    width: 200px;
+}
+.btnserviciosparte2:hover{
+    background-color: rgb(143, 136, 134);
+}
+.btnactivo{
+    background-color: rgb(143, 136, 134);
+}
+.imgcircularespequeñas{
+    border-radius: 50%;
+    width: 15%;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+.informacion{
+    width: 50%;
+    background-color: rgb(28, 124, 151);
+    border-radius: 20px;
+}
+.infocolor2{
+    background-color: rgb(16, 67, 92);
+    margin: 4%;
+    border-radius: 15px;
+}
+.titulo1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    border-bottom: 3px solid white;
+}
+.texto1{
+    color: white;
+    padding: 9%;
+    justify-content: center;
+}
+.titulo2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    border-bottom: 3px solid white;
+}
+.texto2{
+    color: white;
+    padding: 10%;
+    justify-content: center;
+    
+}
+.titulo3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    border-bottom: 3px solid white;
+}
+.texto3{
+    color: white;
+    padding: 10%;
+    justify-content: center;
+    padding-bottom: 40%;
+}
+.titulo4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    border-bottom: 3px solid white;
+}
+.texto4{
+    color: white;
+    padding: 10%;
+    justify-content: center;
+    padding-bottom: 25%;
+}
+.titulo5{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 3px solid white;
+}
+.texto5{
+    color: white;
+    padding: 10%;
+    justify-content: center;
+}
+.titulo6{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 3px solid white;
+}
+.texto6{
+    color: white;
+    padding: 6%;
+    justify-content: center;
+}

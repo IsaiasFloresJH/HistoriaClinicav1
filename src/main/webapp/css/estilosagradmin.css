@@ -1,0 +1,134 @@
+
+/*User*/
+
+.user{
+    background-color: rgb(66, 154, 173);
+    width: 100%; /* Ocupa toda la anchura de la pantalla */
+    height: 100vh; /* Ocupa toda la altura de la pantalla (viewport height) */
+    
+}
+
+.mp {
+    font-size: 4em; /* Aumenta el tamaño de la fuente */
+    text-align: center; /* Centra el texto dentro del div */
+    color: white;
+    border-bottom: 3px solid rgb(255, 255, 255); 
+}
+
+.IP{
+    display: flex;
+
+}
+.imagen-perfil {
+    order: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url(/img/bruce.png); /* Sustituir con la imagen real */
+    margin-bottom: 15px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.info-usuario {
+    order: 2; /* Cambia el orden a la derecha */
+    left: 200px;
+    top: 80px;
+    width: 200px; /* Ajusta el ancho del div */
+    position: relative;
+    width: 600px; /* Ajusta el ancho del div */
+    height: 700px; /* Ajusta la altura del div */;
+}
+
+.mis-citas {
+    order: 3; /* Cambia el orden a la izquierda */
+    
+}
+
+.info-usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.datos-usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 20px;
+
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-right: 90px; 
+    
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.8em; 
+}
+
+input:focus {
+    outline: none;
+    border-color: dodgerblue;
+}
+
+
+.mis-citas {
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(57, 129, 145);
+    width: 300px;
+    height: 200px; /* Aumenté la altura para permitir más espacio */
+    text-align: center;
+    margin-top: -400px;
+    margin-left: 1200px;
+    border-radius: 10%;
+    font-size: 1.3em; 
+    color: white;
+}
+
+.mc {
+    border-bottom: 3px solid rgb(255, 255, 255);
+    color: white;
+}
+
+/* Añade un margen en la parte superior de los párrafos para moverlos hacia abajo */
+.mis-citas p {
+    margin-top: 20px; /* Ajusta el espacio para mover los párrafos hacia abajo */
+}
+
+.imagen-perfil p{
+    margin-top: 220px;
+    margin-left: 55px;
+    font-size: 30px;
+}
+
+/* Estilo para elementos de selección (select) */
+select {
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.8em; 
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0.056);
+    width: 120%;
+}
+
+select{
+    background-color: rgba(255, 255, 255, 0.056);
+    width: 120%;
+}

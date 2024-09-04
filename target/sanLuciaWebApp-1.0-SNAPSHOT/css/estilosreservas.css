@@ -1,0 +1,126 @@
+
+/* Reservas*/
+.contenido{
+  padding-top: 7%;
+}
+.total {
+    border: 1px solid #ccc;
+    background-color: rgb(147, 191, 203);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  /* Resto de estilos existentes */
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .titulo-con-indicadores {
+    text-align: center;
+    position: relative;
+  }
+  
+  .circulos-indicadores {
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .circulo-indicador {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(169, 198, 205);
+    display: inline-block;
+    margin: 15px 5px 0; 
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+  }
+  
+  .circulo-indicador.activo {
+    background-color: rgb(123, 140, 145);
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  .seccion {
+    display: none;
+    padding: 50px;
+    border: 1px solid rgb(147, 191, 203);
+    background-color: rgb(147, 191, 203);
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  button {
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 16px);
+  }
+  
+  button {
+    background-color: rgb(0, 88, 107);
+    color: white;
+    cursor: pointer;
+    width: 100px; /* Ancho del botón */
+    padding: 8px; /* Espacio interno del botón */
+    border-radius: 20px;
+    margin-left: 200px;
+  }
+  
+  .titulo{
+    border-bottom: 3px solid rgb(255, 255, 255); 
+  }
+  
+  .opciones-tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinear a la izquierda */
+  }
+  
+  .debito{
+    width: 400px; /* Ancho del botón */
+    padding: 8px; /* Espacio interno del botón */
+    margin-left: -60px;
+    margin-top: -150px;
+    border-radius: 2px;
+  }
+  
+  .credito{
+    width: 400px; /* Ancho del botón */
+    padding: 8px; /* Espacio interno del botón */
+    margin-left: -60px;
+    border-radius: 2px;
+  }
+  
+  
+  .contenido-reserva-cita{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinear a la derecha */
+    margin-left: 360px;
+    background-color: rgb(70, 136, 150); /* Fondo blanco */
+    border: 1px solid rgb(70, 136, 150); /* Borde gris */
+    border-radius: 8px; /* Esquinas redondeadas */
+    padding: 20px; /* Espaciado interno */
+    width: 32%; /* Ancho del contenedor */
+    text-align: center;
+    color: white;
+  }
+  
+  .peque{
+    text-align: center; /* Centrar el texto */
+    margin: 0 auto; /* Centrar horizontalmente */
+  }

@@ -1,0 +1,71 @@
+
+
+.titulos{
+    margin-top: 1%;
+    text-align: center;
+    /* border: #000 1px dashed; */
+}
+
+.titulos h1{
+    font-size: 20px;
+    /* border: #f60808 1px dashed; */
+}
+
+.titulos h2{
+    font-size: 50px;
+    /* border: #25e703 1px dashed; */
+}
+
+.cont-nosotros{
+    display: flex;
+    justify-content: center;
+}
+
+.cont-nosotros .secciones{
+    margin-right: 15PX;
+    color: #fff;
+    width: 25%;
+}
+
+.secciones .iconos{
+    background: #427c89;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.secciones .mision,
+.secciones .vision,
+.secciones .valores{
+    background: #83b8c4;
+    padding: 20px 30px;
+    border-radius: 15px;
+    text-align: center;
+    height: 70%;
+}
+
+.secciones .mision h2,
+.secciones .vision h2,
+.secciones .valores h2{
+    margin-bottom: 15px;
+    /* border: #de08f6 1px dashed; */
+}
+
+.valores ul{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.valores ul li{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.imgicon{
+    height: 40px;
+
+}
+.iconos{
+    text-align: center;
+}

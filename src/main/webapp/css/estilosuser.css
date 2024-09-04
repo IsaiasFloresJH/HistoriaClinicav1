@@ -1,0 +1,69 @@
+
+body{
+    background-color: rgb(66, 154, 173);
+    margin: 0px;
+    width: 100%;
+}
+
+.perfil{
+    width: 100%;
+    display: flex;
+}
+.mp {
+    padding-top: 7%;
+    font-size: 3em; /* Aumenta el tamaño de la fuente */
+    text-align: center; /* Centra el texto dentro del div */
+    color: white;
+    border-bottom: 3px solid rgb(255, 255, 255); 
+}
+
+.IP{
+    width: 55%;
+    color: white;
+    text-align: center;
+    
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    margin-left: 25%;
+}
+.imagen-perfil{
+    border-radius: 50%;
+    width: 20%;
+    margin-top: 5%;
+}
+.titulo{
+    font-size: 1.5em;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.102);
+    border-radius: 20px;
+    font-size: 1.4em;
+    color: white;
+    border: 2px solid white;
+    margin-top: 2%;
+}
+.mis-citas{
+    margin-top: 10%;
+    margin-left: 5%;
+    color: white;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.485);
+    width: 30%;
+    height: 200px;
+    border-radius: 20px;
+}
+.mc{
+    width: 100%;
+    font-size: 2em;
+    border-bottom: 3px solid white;
+}
+.cita{
+    margin-top: 2%;
+    font-size: 1em;
+    text-align: left;
+    margin-left: 2%;
+}

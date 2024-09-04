@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0; 
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('../img/fondoop2.png') center center/cover no-repeat; /* Reemplaza 'ruta-de-tu-imagen.jpg' con la ruta de tu imagen */
+}
+
+.cuerpoSL {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    background-color: rgba(53, 124, 139, 0.835);
+    border-radius: 25px;
+}
+.btnIngresar{
+    background-color: #347e8f;
+    color: white;
+}

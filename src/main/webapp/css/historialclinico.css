@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(66, 154, 173);
+}
+.cajaprincipal{
+    width: 100%;
+    margin-top: 2%;
+    color: white;
+}
+.titulopaciente{
+    padding-top: 7%;
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid white;
+}
+.titulo{
+    font-size: 1.5em;
+    margin-left: 30%;
+    color: white;
+}
+.btnagregar{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    margin-left: 10%;
+    background-color: blue;
+    padding: .5%;
+    border-radius: 20px;
+    border: 2px solid blue;
+    margin-bottom: .5%;
+}
+.btnagregar:hover{
+    border: 2px solid white;
+}
+.tablacontainer table{
+    width: 80%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.344);
+    padding: 2%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.hc{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    padding: 10%;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+.hc:hover{
+    background-color: rgb(6, 255, 6);
+}
+th{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+td{
+    font-size: 1em;
+    height: 50px;
+}

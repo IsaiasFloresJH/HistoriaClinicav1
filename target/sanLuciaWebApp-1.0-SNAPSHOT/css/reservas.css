@@ -1,0 +1,56 @@
+.reservas{
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+}
+.reservali{
+    width: 60%;
+    margin-top: 2%;
+    background-color: rgb(66, 154, 173);
+    padding: 2%;
+    color: white;
+    border-radius: 20px;
+    height: 30em;
+}
+.resv{
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid white;
+    padding: 2%;
+}
+.paraf1{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.btnreserva{
+    text-align: center;
+    width: 25%;
+    color: white;
+    background-color: rgb(26, 89, 103);
+    text-decoration: none;
+    justify-content: center;
+    font-size: 1em;
+    border-radius: 7px;
+    padding: 2%;
+}
+.btnespacio{
+    margin-left: 35%;
+}
+.informacion{
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 15%;
+    background-color: rgb(66, 154, 173);
+    color: white;
+    padding: 2%;
+    border-radius: 20px;
+}
+.inf{
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid white;
+    padding: 2%;
+}

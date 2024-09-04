@@ -1,0 +1,79 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #439aad;
+}
+.container{
+    padding-top: 2%;
+}
+.titulopaciente{
+    width: 100%;
+    border-bottom: 2px solid white;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+/* Estilos para la línea divisoria */
+.divider {
+    border: none;
+    border-top: 4px solid white; /* Define el color y grosor de la línea blanca */
+}
+
+/* Estilos para un título centrado */
+.centered-title {
+    font-weight: bold;
+    text-align: center; /* Centra el texto horizontalmente */
+    color: #fff; /* Cambia el color del título si es necesario */
+}
+
+/* Estilos para la tabla de seguimiento del paciente */
+.table-content {
+    padding: 20px;
+    text-align: center; /* Alinea el contenido de la tabla al centro */
+    color: #fff; /* Color del texto en la tabla si es necesario */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #fff; /* Define el estilo de borde de la tabla */
+}
+
+/* Estilos para las filas impares en la tabla */
+table tbody tr:nth-child(odd) {
+    background-color: #356f8b; /* Cambia el color de fondo de las filas impares */
+}
+
+/* Estilos para las filas pares en la tabla */
+table tbody tr:nth-child(even) {
+    background-color: #4a90a6; /* Cambia el color de fondo de las filas pares */
+}
+
+/* Estilos para las celdas de la tabla */
+table th {
+    background-color: #2d6b87; /* Cambia el color de fondo de las celdas de encabezado */
+    color: #fff; /* Cambia el color del texto en las celdas de encabezado */
+    font-weight: bold;
+}
+
+/* Estilos para los números de las filas en la tabla */
+table td:first-child {
+    font-weight: bold;
+}
+
+/* Estilos para los números de los días en la disposición de cuadrícula */
+.number-day {
+  padding-left: 10px;
+  position: absolute; /* Posiciona el número del día dentro del cuadro redondeado */
+  top: 5px; /* Espaciado superior para el número del día */
+  left: 5px; /* Espaciado izquierdo para el número del día */
+  color: #fff; /* Color del número del día */
+}
+
+/* Estilos para los párrafos en el contenido */
+p {
+  margin: 0 0 10px; /* Espacio entre los párrafos */
+}

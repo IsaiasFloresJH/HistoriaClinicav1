@@ -1,0 +1,73 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/pagosecretaria.css">
+    <link rel="stylesheet" href="../../css/estilosgenerales.css">
+    <title>Tu Navbar</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="navegacion">
+        <ul>
+            <a class="imgdeimgnav" href="index.jsp"><img class="imgnav" src="../../img/Logo_conname_sin_fondo.png" alt="logoname"> </a>
+            <li class="subslink"><a href="paciente.jsp">Pacientes</a></li>
+            <li class="subslink"><a href="reserva.jsp">Reservas</a></li>
+            <li class="subslink"><a href="seguimientopaciente.jsp">Seguimiento pacientes</a></li>
+            <li class="subslink"><a href="pagos.jsp" class="linkactivo">Pagos</a></li>
+            <li class="espacio"></li>
+            <li class="subslink"><a href="perfilsecretaria.jsp">Perfil</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="container">
+      <div class="titulopaciente">
+        <h2 class="centered-title">PAGOS</h2>
+      </div>
+
+      <div class="content">
+        <div class="payment-container">
+          <div class="left-box">
+            <div class="rounded-box">
+              <a href="#">Ver pagos por citas</a>
+            </div>
+            <div class="rounded-box">
+              <a href="#">Ver pagos al contado</a>
+            </div>
+          </div>
+          <div class="right-box">
+            <div class="rounded-box">
+              <p>Pagos por cuotas</p>
+              <table>
+                <thead>
+                  <tr>
+                    <th>N°</th>
+                    <th>Paciente</th>
+                    <th>Servicio</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Aquí puedes agregar las filas de datos de pagos por cuotas -->
+                    <tr>
+                      <th>1</th>
+                      <th>Lucía Fernández Guevara</th>
+                      <th>Ortodoncia</th>
+                    </tr>
+
+
+                  <tr>
+                    <th>2</th>
+                    <th>María Díaz Benavides</th>
+                    <th>Endodoncia</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

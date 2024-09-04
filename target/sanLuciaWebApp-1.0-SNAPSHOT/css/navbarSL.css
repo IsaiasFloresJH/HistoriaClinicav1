@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0; 
+    height: 100vh; 
+    background: url('../img/fondoop2.png') center center/cover no-repeat;
+    width: 100%;
+}
+.bg-blanco {
+    background-color: rgb(255, 255, 255);
+}
+.imgnav{
+    width: 20%;
+    
+}
+
+.tb{
+    padding-bottom: 100px;
+}
+/*
+Estilos index
+*/
+.cuerpoSL {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    padding: 80px;
+    color: #26606d;
+    height: 100vh;
+}
+.btnReservas{
+    background-color: #3892a6;
+    color: white;
+    
+}
+
+
+
+
